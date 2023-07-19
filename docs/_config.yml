@@ -7,13 +7,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   It's also adaptable to cater to other requirements based on your project's needs.
 baseurl: "/qrandom.lumii.lv/" # the subpath of your site, e.g. /blog
 url: "https://krisjanisp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username: LUMII-Syslab
 
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
-remote_theme: BDHU/minimalist
-
-github_username: LUMII-Syslab
