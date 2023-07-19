@@ -1,10 +1,25 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: post
+layout: home
 ---
 
-# QRNG service - replacement for `/dev/random`
+# `/dev/qradom0` - a replacement for `/dev/random`
+by Institute of Mathematics and Computer Science, University of Latvia
+
+## Overview
+
+The QRNG service project is a unique solution designed to serve
+as an alternative to /dev/random.
+
+The project is composed of a character device and a userspace service working together
+to provide a reliable source of random bytes.
+This repository holds all the necessary files and instructions to build and install
+the character device and the userspace service.
+
+## GitHub repository
+
+Github repository is located at [https://github.com/LUMII-Syslab/qrng-dev-qrandom](https://github.com/LUMII-Syslab/qrng-dev-qrandom).
 
 The repository contains a `Makefile` which will build and install both a character device
 and a [userspace](https://en.wikipedia.org/wiki/User_space_and_kernel_space) service.
