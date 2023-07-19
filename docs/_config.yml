@@ -9,5 +9,3 @@ baseurl: "/qrandom.lumii.lv/" # the subpath of your site, e.g. /blog
 url: "https://krisjanisp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: LUMII-Syslab
 theme: minima
-header_pages:
-
