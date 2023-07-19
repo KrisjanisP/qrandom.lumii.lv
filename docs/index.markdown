@@ -4,16 +4,19 @@
 layout: home
 ---
 
-# `/dev/qradom0` - a replacement for `/dev/random`
+## `/dev/qradom0` - a replacement for `/dev/random`
 by Institute of Mathematics and Computer Science, University of Latvia
 
 ## Overview
 
-The QRNG service project is a unique solution designed to serve
-as an alternative to /dev/random.
+The Remote QRNG service project is a unique solution designed to
+fetch random bytes from a remote [QRNG](https://en.wikipedia.org/wiki/Hardware_random_number_generator)
+and provide them to the user through a special file
+similar to `/dev/random` and `/dev/urandom`.
 
-The project is composed of a character device and a userspace service working together
+The project is composed of a character device and an userspace service working together
 to provide a reliable source of random bytes.
+
 This repository holds all the necessary files and instructions to build and install
 the character device and the userspace service.
 
